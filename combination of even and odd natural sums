@@ -1,0 +1,18 @@
+n=int(input("enter a number : "))
+i=2
+j=1
+c=0
+d=0
+
+while (j<=n*2 and i<=n*2):
+
+    c+=i
+    i+=2
+    
+    d+=j
+    j+=2
+        
+
+
+print(c,"is the sum of ",n,"even natural numbers")
+print(d,"is the sum of ",n,"odd natural numbers")
