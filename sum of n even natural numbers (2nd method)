@@ -7,4 +7,4 @@ while (i<=n*2):
     c+=i
     i+=2
         
-print(c,"is the sum of", n, "odd natural numbers ")
+print(c,"is the sum of", n, "even natural numbers ")
